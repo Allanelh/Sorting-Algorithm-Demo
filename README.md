@@ -34,8 +34,10 @@ Make sure you have a C++ compiler installed:
     g++ main.cpp -o mergesort
 ```
 3. Run the program:
-- ./mergesort for Linux / macOS
-- mergesort.exe for Windows
+```bash
+   ./mergesort for Linux / macOS
+    mergesort.exe for Windows
+```
 
 4. Enter integers separated by spaces or commas when prompted.
    
