@@ -17,23 +17,23 @@ It demonstrates modern C++ practices, recursion, template programming, and robus
 
 ---
 
-### Prerequisites
+## Prerequisites
 Make sure you have a C++ compiler installed:  
 - g++ (Linux / macOS)  
 - MinGW or MSVC (Windows)
 
-### Running the Program
+## Running the Program
 1. Clone the repository:
    ```bash
    git clone https://github.com/YOUR-USERNAME/merge-sort-cpp.git
    cd merge-sort-cpp
 
 2. Compile the program:
-g++ main.cpp -o mergesort
+- g++ main.cpp -o mergesort
 
 3. Run the program:
-./mergesort       # Linux / macOS
-mergesort.exe     # Windows
+- ./mergesort       # Linux / macOS
+- mergesort.exe     # Windows
 
 4. Enter integers separated by spaces or commas when prompted.
    
