@@ -1,38 +1,46 @@
 # Sorting-Algorithm-Demo
-Merge Sort implementation using recursion and merging in C++.
+Professional Merge Sort implementation in C++ with interactive user input and verification.  
 
-This repository contains a clean and well-documented implementation of the Merge Sort algorithm in C++.  
-It demonstrates takes advantage of data structures, algorithms, recursion, and time complexity analysis.
+This repository contains a clean, well-documented, and production-ready implementation of the Merge Sort algorithm.  
+It demonstrates modern C++ practices, recursion, template programming, and robust error handling.
 
 ---
 
 ## Features
-- Implementation of **Merge Sort** using recursion and merging.
-- Modern C++ practices** (`std::vector`, clear variable names, modular code).
-- A Time Complexity of O(n log n).
-- A Space Complexity of O(n) due to temporary storage during merging.
+- Template-based Merge Sort for any numeric type (`int`, `long long`, etc.)  
+- Interactive input: accepts integers separated by spaces or commas  
+- Supports both ascending and descending sorting  
+- Verification of correctness after sorting  
+- Professional console output formatting  
+- Time Complexity: O(n log n)  
+- Space Complexity: O(n) due to temporary arrays during merging  
 
 ---
 
-## Getting Started
-
 ### Prerequisites
-Make sure you have a C++ compiler installed, such as:
-- g++ (Linux / macOS)
+Make sure you have a C++ compiler installed:  
+- g++ (Linux / macOS)  
 - MinGW or MSVC (Windows)
 
 ### Running the Program
 1. Clone the repository:
    ```bash
    git clone https://github.com/YOUR-USERNAME/merge-sort-cpp.git
-   cd merge-sort-cpp/src
-2. Compile the program:
-  g++ main.cpp -o mergesort
+   cd merge-sort-cpp
 
+2. Compile the program:
+g++ main.cpp -o mergesort
 
 3. Run the program:
-  ./mergesort
+./mergesort       # Linux / macOS
+mergesort.exe     # Windows
 
+4. Enter integers separated by spaces or commas when prompted.
+   
+5. After the sort, the program will display:
+- Original input
+- Sorted data (ascending)
+- Sorted data (descending)
+- Verification of correctness
 
-Expected Output:
-Sorted array: 5 12 22 45 60 78 90
+6. The program will then ask if you want to run again or exit.
