@@ -4,8 +4,6 @@ Professional Merge Sort implementation in C++ with interactive user input and ve
 This repository contains a clean, well-documented, and production-ready implementation of the Merge Sort algorithm.  
 It demonstrates modern C++ practices, recursion, template programming, and robust error handling.
 
----
-
 ## Features
 - Template-based Merge Sort for any numeric type (`int`, `long long`, etc.)  
 - Interactive input: accepts integers separated by spaces or commas  
@@ -14,8 +12,6 @@ It demonstrates modern C++ practices, recursion, template programming, and robus
 - Professional console output formatting  
 - Time Complexity: O(n log n)  
 - Space Complexity: O(n) due to temporary arrays during merging  
-
----
 
 ## Prerequisites
 Make sure you have a C++ compiler installed:  
@@ -30,14 +26,15 @@ Make sure you have a C++ compiler installed:
    ```
 
 2. Compile the program:
-```C
-    g++ main.cpp -o mergesort
-```
+   ```C
+   g++ main.cpp -o mergesort
+   ```
+   
 3. Run the program:
-```C
+   ```C
    ./mergesort //for Linux / macOS
-    mergesort.exe //for Windows
-```
+   mergesort.exe //for Windows
+   ```
 
 4. Enter integers separated by spaces or commas when prompted.
    
