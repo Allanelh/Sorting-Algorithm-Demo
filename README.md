@@ -24,17 +24,17 @@ Make sure you have a C++ compiler installed:
 
 ## Running the Program
 1. Clone the repository:
-   ```bash
+   ```C
    git clone https://github.com/YOUR-USERNAME/merge-sort-cpp.git
    cd merge-sort-cpp
    ```
 
 2. Compile the program:
-```bash
+```C
     g++ main.cpp -o mergesort
 ```
 3. Run the program:
-```bash
+```C
    ./mergesort //for Linux / macOS
     mergesort.exe //for Windows
 ```
