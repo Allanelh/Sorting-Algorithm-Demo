@@ -27,10 +27,12 @@ Make sure you have a C++ compiler installed:
    ```bash
    git clone https://github.com/YOUR-USERNAME/merge-sort-cpp.git
    cd merge-sort-cpp
+   ```
 
 2. Compile the program:
-- g++ main.cpp -o mergesort
-
+```bash
+    g++ main.cpp -o mergesort
+```
 3. Run the program:
 - ./mergesort for Linux / macOS
 - mergesort.exe for Windows
