@@ -20,7 +20,7 @@ Make sure you have a C++ compiler installed:
 ## Running the Program
 1. Clone the repository:
    ```C
-   git clone https://github.com/YOUR-USERNAME/merge-sort-cpp.git
+   git clone <repository-url>
    cd merge-sort-cpp
    ```
 
